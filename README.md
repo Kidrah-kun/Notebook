@@ -15,10 +15,10 @@ This is a full-stack React and Express application built with a stunning, minima
 
 ## Tech Stack
 
-- **Frontend:** React, TypeScript, Vite, TailwindCSS, Framer Motion
+- **Frontend:** React, TypeScript, Vite, TailwindCSS
 - **Backend:** Node.js, Express
 - **Database:** MongoDB
-- **Routing:** TanStack Router
+- **Routing:** React Router DOM
 
 ## Running Locally
 
