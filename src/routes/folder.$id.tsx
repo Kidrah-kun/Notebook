@@ -158,7 +158,7 @@ export default function FolderPage() {
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
           <ArrowLeft className="h-4 w-4" /> shelf
         </Link>
-        <h1 className="font-handwritten text-2xl md:text-3xl">{folder.name}</h1>
+        <h1 className="font-handwritten text-2xl md:text-3xl">{folder?.name}</h1>
         <div className="flex items-center gap-2">
           <button onClick={handleDeleteFolder} aria-label="Delete Notebook" className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border bg-card text-muted-foreground hover:text-destructive transition-colors hover:bg-destructive/10">
             <Trash2 className="h-4 w-4" />
