@@ -4,7 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"node server/index.js\" \"vite dev\"",
+    "dev": "concurrently \"node api/index.js\" \"vite dev\"",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",

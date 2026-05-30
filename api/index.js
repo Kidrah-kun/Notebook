@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGODB_URI = "mongodb://localhost:27017/notebook";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/notebook";
 
 mongoose.connect(MONGODB_URI).then(() => {
   console.log("Connected to MongoDB");
@@ -165,6 +165,10 @@ app.post('/api/settings', async (req, res) => {
   res.json({ success: true });
 });
 
-app.listen(3000, () => {
-  console.log('API Server running on port 3000');
-});
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(3000, () => {
+    console.log('API Server running on port 3000');
+  });
+}
+
+export default app;
