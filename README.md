@@ -2,7 +2,7 @@
 
 A deeply personal, distraction-free digital journaling space for your thoughts, secrets, and ideas. 
 
-This is a full-stack React and Express application built with a stunning, minimalist "cherry blossom" aesthetic. It allows you to create beautifully crafted notebooks with secure passwords, write entries in a distraction-free environment, and keep your thoughts organized locally.
+This is a full-stack React and Express application built with a stunning, minimalist "cherry blossom" aesthetic. It allows you to create beautifully crafted notebooks {journels} with secure passwords, write entries in a distraction-free environment, and keep your thoughts organized locally.
 
 ## Features
 
